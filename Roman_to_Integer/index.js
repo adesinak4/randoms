@@ -22,7 +22,7 @@ function value(r)
 }
 
 // Finds decimal value of a given
-// romal numeral
+// roman numeral
 function romanToDecimal(str)
 {
     // Initialize result
@@ -42,7 +42,7 @@ function romanToDecimal(str)
              if (s1 >= s2)
              {
                  // Value of current symbol
-                 // is greater or equalto
+                 // is greater or equal to
                  // the next symbol
                  res = res + s1;
              }
@@ -62,7 +62,6 @@ function romanToDecimal(str)
      return res;
 }
 
-// Driver Code
 // Considering inputs given are valid
 var str  = prompt('Enter Roman Numeral: ');
 console.log("Integer form of Roman Numeral" + " is " + romanToDecimal(str));
