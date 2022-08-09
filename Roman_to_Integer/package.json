@@ -1,0 +1,18 @@
+{
+  "name": "roman_to_integer",
+  "version": "1.0.0",
+  "description": "Convert Roman Numerals to Integer and also verify if Roman Numeral inputted is valid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Randoms"
+  },
+  "author": "Kisame Holmes",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
