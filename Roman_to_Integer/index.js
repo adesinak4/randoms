@@ -66,4 +66,3 @@ function romanToDecimal(str)
 // Considering inputs given are valid
 var str  = prompt('Enter Roman Numeral: ');
 console.log("Integer form of Roman Numeral" + " is " + romanToDecimal(str));
-// This code contributed by umadevi9616
